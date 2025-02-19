@@ -3,12 +3,11 @@ import {Card} from "../interfaces/Card.ts";
 
 const AllCharsDiv=styled.div`
     display: flex;
-    flex-flow: row wrap;    
+    flex-flow: row wrap;  
     justify-content: space-evenly;
 `;
 
 const SingleCharDiv=styled.div<{suit: string}>`
-    box-content
     display: flex;
     flex-direction: column;   
     justify-content: center;
