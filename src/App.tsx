@@ -5,6 +5,7 @@ import DeckOfCards from "./components/DeckOfCards.tsx";
 
 const ParentDiv=styled.div`
     width: 80vw;
+    height: 100vh;
     margin: auto;
     border: 5px darkred solid;
     background-color: IndianRed;
